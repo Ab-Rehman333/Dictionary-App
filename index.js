@@ -34,6 +34,7 @@ getBtn.addEventListener("click", function (e) {
 async function getData(word) {
 
     loading.style.display = "block"
+    Defination.style.display = "none"
     const response = await fetch(`https://dictionaryapi.com/api/v3/references/spanish/json/${word}?key=538beaf0-b150-47b8-b91d-c4b14de9013b`);
     const getData = await response.json();
     Defination.innerText = "Defination :"
