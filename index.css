@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main-first-email {
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #26282a;
+    box-shadow: rgb(0 0 0 / 50%) 10px 14px 28px, rgb(0 0 0 / 60%) -1px -4px 28px;
+    width: 405px !important;
+    z-index: 1;
+    height: 680px;
+    padding: 5px 5px;
+    padding-bottom: 10px;
+    border: 1px solid transparent;
+    border-top: 1px solid #f1f1f5;
+    border-radius: 19px;
+    height: auto;
+    min-height: 600px;
+}
+
+@media (max-width:450px) {
+    .main-first-email {
+        width: 100% !important;
+    }
+}
+
+@media (max-width:780px) {
+
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: center !important;
+    }
+}
+
+#third {
+    width: 100%;
+}
+
+.icon-first-div>p {
+    display: inline;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.pink {
+
+    color: #ff00b1;
+}
+
+.icon-first-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7em;
+    margin: .5em 0;
+}
+
+.icon-first-div>i {
+    font-size: 1.9em;
+}
+
+.icon-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-images>img {
+    height: 200px;
+}
+
+.HR {
+    border-top: 1px solid;
+    opacity: 0.25;
+    width: 90%;
+    margin: auto;
+}
+
+.heading-content {
+    margin-top: 0.4em;
+}
+
+.heading-content>h5 {
+    font-weight: 700;
+    opacity: 0.9;
+}
+
+.heading-content>p {
+    font-size: 1rem;
+}
+
+/* firs first once  */
+
+.firt-icon-div {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.4rem;
+    align-items: center;
+    margin: 0 1rem;
+    margin-top: 3rem;
+}
+
+
+/* for display none  */
+#loading {
+    display: none;
+}
+
+.notFound {
+    text-align: center;
+    font-weight: bold;
+}
+
+.fortags {
+    background-color: #df64ba;
+    color: white;
+    padding: 0.5em 0.6em;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: auto;
+    margin: 0.3em 0.4rem;
+    font-size: .8em;
+}
+
+
+
+
+
+
+#random-meaning {
+    background-color: #06cfff;
+    border-radius: 4px;
+    padding: 0.1em 0.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 500;
+    font-family: cursive;
+    letter-spacing: .06rem;
+}
+#Defination{
+    font-weight: 900;
+    display: none;
+}
