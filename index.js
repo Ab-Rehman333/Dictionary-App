@@ -39,7 +39,6 @@ async function getData(inputValue) {
     const getData = await response.json();
     Defination.innerText = "Defination :"
 
-    console.log(getData);
     if (!getData.length) {
         Defination.style.display = "none"
         loading.style.display = "none"
