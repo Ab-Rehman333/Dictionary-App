@@ -15,27 +15,27 @@ getBtn.addEventListener("click", function (e) {
 
 
 
-    // clear fields 
+    // clearing All the  fields 
     getDef.innerHTML = ""
     notFound.innerHTML = ""
     getAudio.innerHTML = ""
 
 
-    let word = getInput.value;
-    if (word === "") {
+    let inputValue = getInput.value;
+    if (inputValue === "") {
         return
     }
 
-    getData(word);
+    getData(inputValue);
 
 })
 
 
-async function getData(word) {
+async function getData(inputValue) {
 
     loading.style.display = "block"
     Defination.style.display = "none"
-    const response = await fetch(`https://dictionaryapi.com/api/v3/references/spanish/json/${word}?key=538beaf0-b150-47b8-b91d-c4b14de9013b`);
+    const response = await fetch(`https://dictionaryapi.com/api/v3/references/spanish/json/${inputValue}?key=538beaf0-b150-47b8-b91d-c4b14de9013b`);
     const getData = await response.json();
     Defination.innerText = "Defination :"
 
